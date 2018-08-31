@@ -30,6 +30,7 @@ li a:hover {
 
 body  {
     background-image: url("bergen_abstract_wallpaper.jpg");
-    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
