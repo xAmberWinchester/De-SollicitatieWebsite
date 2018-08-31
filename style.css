@@ -11,6 +11,8 @@
 
 .navbar ul {
     float: left;
+    position: absolute;
+    left: 0;
 }
 
 .navbar ul li {
