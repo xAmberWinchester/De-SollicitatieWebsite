@@ -11,8 +11,9 @@
 
 .navbar ul {
     float: left;
-    position: absolute;
+    position: fixed;
     left: 0;
+    
 }
 
 .navbar ul li {
@@ -33,6 +34,8 @@ li a:hover {
 body  {
     background-image: url("bergen_abstract_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-position: right top;
+    background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
