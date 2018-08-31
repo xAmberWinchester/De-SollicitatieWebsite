@@ -1,4 +1,4 @@
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,18 +9,27 @@ ul {
     width: 100%;
 }
 
-li {
+.navbar ul {
     float: left;
 }
 
+.navbar ul li {
+    display: inline;
+}
+
 li a {
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 100px 30px;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: #111;
+}
+
+body  {
+    background-image: url("bergen_abstract_wallpaper.jpg");
+    background-color: #cccccc;
+    font-family: 'Courier New', Courier, monospace;
 }
