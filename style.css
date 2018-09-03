@@ -34,7 +34,7 @@
 body  {
     background-image: url("bergen_abstract_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: absolute;
     background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
