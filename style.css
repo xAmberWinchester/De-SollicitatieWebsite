@@ -5,7 +5,7 @@
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 0;
+    top: 130px;
     width: 100%;
 }
 
@@ -13,7 +13,6 @@
     float: left;
     position: fixed;
     left: 0;
-    
 }
 
 .navbar ul li {
@@ -30,18 +29,6 @@
 .navbar li a:hover {
     background-color: #111;
 }
-
-body  {
-    background-image: url("bergen_abstract_wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-attachment: fixed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-}
-
-
-
 
 div.Studiemonitor th, td {
     padding: 5px;
@@ -111,7 +98,8 @@ div.Studiemonitor td {
 }
 
 div.CE {
-	font-family: verdana,arial,sans-serif;
+    margin-top:35px;
+    font-family: verdana,arial,sans-serif;
 	font-size:11px;
 	color:#333333;
 	border-width: 1px;
@@ -137,5 +125,28 @@ div.Studiemonitor table {
     border-collapse: collapse;
 }
 
+body {
+    background-image: url("bergen_abstract_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding:0 16px;
+}
 
+.header {
+    background-image: url("dog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px;
+    text-align: center;
+    width:100%;
+    overflow: hidden;
+    float: left;
+    position: fixed;
+    left: 0;
+    margin: 0;
+    top: 0;
 
+}
