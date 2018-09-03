@@ -13,6 +13,7 @@
     float: left;
     position: fixed;
     left: 0;
+    padding: 5px;
 }
 
 .navbar ul li {
@@ -126,11 +127,10 @@ div.Studiemonitor table {
 }
 
 body {
-    background-image: url("bergen_abstract_wallpaper.jpg");
+    background-image: url("wallpaper\ double.jpg");
     background-repeat: no-repeat;
     background-position: absolute;
     background-attachment: fixed;
-    background-size: 100% 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     padding:0 16px;
