@@ -97,7 +97,7 @@ div.Studiemonitor td {
 	background-color: #ffffff;
 }
 
-div.CE {
+div.EC {
     margin-top:35px;
     font-family: verdana,arial,sans-serif;
 	font-size:11px;
@@ -106,14 +106,14 @@ div.CE {
 	border-color: #666666;
 	border-collapse: collapse;
 }
-div.CE th {
+div.EC th {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
 	border-color: #666666;
 	background-color: #dedede;
 }
-div.CE td {
+div.EC td {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
