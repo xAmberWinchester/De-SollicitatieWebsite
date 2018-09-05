@@ -30,7 +30,6 @@
 .navbar li a:hover {
     background-color: #111;
 }
-
 div.Studiemonitor th, td {
     padding: 5px;
     width: 20%;
@@ -51,7 +50,7 @@ div.Studiemonitor th.tablemid{
     border: 3px solid black;
     border-collapse: collapse;
 }
-div.Studiemonitor tr.TotalCE{
+div.Studiemonitor tr.TotalEC{
     border-top-style: double;
     border-top-width: 3px;
     border-top-color: black;
@@ -60,7 +59,7 @@ div.Studiemonitor tr.TotalCE{
     border-bottom-color: black;
     border-collapse: collapse;
 }
-div.Studiemonitor th.TotalCE{
+div.Studiemonitor th.TotalEC{
     border-right-style: inset;
     border-right-width: 3px;
     border-right-color: black;
