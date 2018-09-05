@@ -172,6 +172,22 @@ body {
     text-align: justify;
 }
 
-.image:hover {
-    margin-right: 300px;
+.imageikjongdrop:hover .imagewijdrie{
+    display: block;
+}
+
+.imageikjong {
+    margin-right: 30px;
+    float:right;
+    margin-top:-30px;
+    width:320px;
+    height:480px
+}
+
+.imagewijdrie {
+    display: none;
+    float:right;
+    margin-top:-30px;
+    width:320px;
+    height:480px
 }
