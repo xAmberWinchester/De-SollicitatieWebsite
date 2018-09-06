@@ -188,7 +188,7 @@ body {
     display: none;
     float:right;
     margin-top:-30px;
-    width:360px;
+    width:390px;
     height:480px
 }
 
@@ -248,9 +248,7 @@ body {
     text-align: center;
 }
 
-.Marum_Bibio-circel {
-    width: 70px;
-    height: 70px;
-    margin-top: 10px;
-    border-radius: 50%;
+.MB {
+    margin-top: -1px;
+    float: left;
 }
