@@ -131,7 +131,7 @@ body {
     background-position: absolute;
     background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0,8mm;
+    font-size: 16px;
     color: white;
     padding:0 16px;
     margin-bottom: 100px;
@@ -155,8 +155,7 @@ body {
 
 .fa {
     padding: 0px;
-    font-size: 100px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
