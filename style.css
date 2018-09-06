@@ -212,3 +212,38 @@ body {
     width:500px;
     height:460px
 }
+
+
+.imagebergen {
+    float:right;
+    width:360px;
+    height:480px;
+}
+
+.imageambermetpaard{
+    display: none;
+    float:right;
+    width:360px;
+    height:480px;
+}
+
+.imagebergendrop:hover .imageambermetpaard{
+    display: flex;
+}
+
+.imagebergendrop {
+    display: flex;
+    flex-direction: column; 
+    float: right;
+    margin-right: 110px;
+    margin-top: -65px;
+}
+
+.studiepunten {
+    background-color: #666666;
+    border: 3px solid #333333;
+    width: 95vw;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
