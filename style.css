@@ -247,3 +247,10 @@ body {
     padding: 5px;
     text-align: center;
 }
+
+.Marum_Bibio-circel {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
