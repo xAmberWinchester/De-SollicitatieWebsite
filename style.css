@@ -5,7 +5,7 @@
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 150px;
+    top: 160px;
     width: 100%;
 }
 
@@ -28,11 +28,11 @@
 }
 
 .navbar li a:hover {
-    background-color: #111;
+    background-color: #666666;
 }
 
 .navbar ul li a.active {
-    background-color: #666666;
+    background-color: #111;
 }
 
 div.Studiemonitor th, td {
