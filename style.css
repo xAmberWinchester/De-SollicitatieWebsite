@@ -1,18 +1,11 @@
-.navbar ul {
-    list-style-type: none;
+*{
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 160px;
-    width: 100%;
 }
 
 .navbar ul {
-    float: left;
-    position: fixed;
-    left: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
     padding: 5px;
 }
 
@@ -23,7 +16,7 @@
 .navbar li a {
     color: white;
     text-align: center;
-    padding: 100px 30px;
+    padding: 0 30px;
     text-decoration: none;
 }
 
@@ -133,29 +126,20 @@ div.Studiemonitor table {
 body {
     background-image: url("wallpaper\ double.jpg");
     background-repeat: no-repeat;
-    background-position: absolute;
-    background-attachment: fixed;
+    /* background-position: absolute; */
+    /* background-attachment: fixed; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     color: white;
-    padding:0 16px;
-    margin-bottom: 100px;
+    width: 100vw;
 }
 
 .header {
-    background-image: url("dog.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 50px;
-    text-align: center;
+    text-align: ;
     width:100%;
-    overflow: hidden;
-    float: left;
-    position: fixed;
-    left: 0;
-    margin: 0;
-    top: 0;
-
+}
+.headerImg{
+    width: 100%;
 }
 
 .fa {
@@ -166,7 +150,9 @@ body {
     margin: 5px 2px;
     border-radius: 70%;
   }
-  
+  .inhoud{
+      margin-left: 10%;
+  }
 
   .footer {
     position: bottom;
