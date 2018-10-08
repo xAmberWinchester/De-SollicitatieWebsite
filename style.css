@@ -252,6 +252,35 @@ body {
     margin-top: -65px;
 }
 
+/* .vrienden {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width:450px;
+    height:240px;
+    margin-right: 110px;
+    margin-top: 30px;
+}
+
+.omgeving {
+    display: flex;
+    float: right;
+    width:450px;
+    height:280px;
+    margin-right: 110px;
+    margin-top:250px;
+    transform: rotate(90deg);
+}
+
+.thisIsMe {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width:270px;
+    height:360px;
+    margin-right: 110px;
+} */
+
 .studiepunten {
     background-color: #666666;
     border: 3px solid #333333;
