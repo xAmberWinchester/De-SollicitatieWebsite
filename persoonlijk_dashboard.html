@@ -20,7 +20,12 @@
                 <li><a href="/persoonlijke_introductiepagina.html">Wie ben ik?</a></li>
                 <li><a class="active" href="/persoonlijk_dashboard.html">Mijn Dashboard</a></li>
                 <li><a href="/motivatie.html">Mijn Motivatie</a></li>
-                <li><a href="/beroepsbeeld.html">Beroepsbeeld</a></li>
+                <li><a>Beroepsbeeld</a>
+                <ul class="dropdown">
+                    <li><a href="/hboi-jobevent.html">HBO-I Jobevent</a></li>
+                    <li><a href='/beroepsbeeld_interviews.html'>Bedrijvensafari</a></li>
+                </ul>
+            </li>
             </ul>
         </nav>
         <div class="inhoud">
@@ -57,12 +62,12 @@
                     </tr>
                     <tr>
                         <td> Computer Science Basics </td>
-                        <td><li class="punt" id="Punt2" value="">-</li></td>
+                        <td><li class="punt" id="Punt2" value='7'>5.5</li></td>
                         <td class="punt"> 7,5 </td>
                     </tr>
                     <tr>
                         <td>Programming Basics</td>
-                        <td><li class="punt" id="Punt3" value="">-</li></td>
+                        <td><li class="punt" id="Punt3" value="4.0">4.0</li></td>
                         <td class="punt"> 5,0 </td>
                     </tr>
                     <tr class="TotalEC">
@@ -208,17 +213,17 @@
                 <h3>De studiewijzer</h3>
                 <p>Belangrijke links:</p>
                 <ul>
-                    <li><a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf">Het
+                    <li>- <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf">Het
                             Onderwijs en Examenregelement (OER) van de HZ (2018-2019)</a></li>
-                    <li><a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf">De
+                    <li>- <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf">De
                             Uitvoeringsregeling
                             (UR) van de opleiding HBO-ICT (2017-2018)</a></li>
-                    <li><a href="https://hz.nl/">De HZ site</a></li>
-                    <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus">MyHz Studievoortgang</a></li>
-                    <li><a href="https://learn.hz.nl/my/">De digitale leeromgeving</a></li>
-                    <li><a href="https://github.com/xAmberWinchester">Github omgeving</a></li>
-                    <li><a href="https://hz-hbo-ict.slack.com/messages/CCBLXTL05/">Opleidings Slack</a></li>
-                    <li><a href="https://discordapp.com/channels/352141368023318528/352141368497537024">Opleidings
+                    <li>- <a href="https://hz.nl/">De HZ site</a></li>
+                    <li>- <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus">MyHz Studievoortgang</a></li>
+                    <li>- <a href="https://learn.hz.nl/my/">De digitale leeromgeving</a></li>
+                    <li>- <a href="https://github.com/xAmberWinchester">Github omgeving</a></li>
+                    <li>- <a href="https://hz-hbo-ict.slack.com/messages/CCBLXTL05/">Opleidings Slack</a></li>
+                    <li>- <a href="https://discordapp.com/channels/352141368023318528/352141368497537024">Opleidings
                             Discord</a></li>
                 </ul>
             </div>
@@ -230,15 +235,15 @@
         for(var i = 0; i <=14;){
             i++;
             var elem = document.getElementById(`Punt${i}`);
-        if (elem.value <= '5.5' && elem.value >= '0'){
+        if (elem.value <= 5.4 && elem.value >= 0){
            elem.style.color = 'red';
        }
        
-       else if (elem.value > '5.5' && elem.value <= '10'){
+       else if (number(elem.value) >= 5.5 && number(elem.value) <= 10){
            elem.style.color = 'green';
        }
        
-       else if (elem.value > '10' || elem.value < '0'){
+       else if (elem.value > 10 || elem.value < 0){
            elem.style.color = 'black';
        }
        else{
